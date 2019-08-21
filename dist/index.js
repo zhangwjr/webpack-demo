@@ -86,14 +86,27 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/helloworld.js":
+/*!***************************!*\
+  !*** ./src/helloworld.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction helloworld() {\n  return '你好世界+asdf';\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (helloworld);\n\n//# sourceURL=webpack:///./src/helloworld.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nReferenceError: Unknown option: .preset. Check out https://babeljs.io/docs/en/babel-core/#options for more information about options.\\n    at throwUnknownError (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/validation/options.js:123:11)\\n    at Object.keys.forEach.key (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/validation/options.js:107:5)\\n    at Array.forEach (<anonymous>)\\n    at validateNested (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/validation/options.js:83:21)\\n    at validate (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/validation/options.js:74:10)\\n    at file (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/config-chain.js:174:34)\\n    at cachedFunction (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/caching.js:33:19)\\n    at buildRootChain (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/config-chain.js:120:36)\\n    at loadPrivatePartialConfig (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/partial.js:85:55)\\n    at Object.loadPartialConfig (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/@babel/core/lib/config/partial.js:110:18)\\n    at Object.<anonymous> (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/babel-loader/lib/index.js:144:26)\\n    at Generator.next (<anonymous>)\\n    at asyncGeneratorStep (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/babel-loader/lib/index.js:3:103)\\n    at _next (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/babel-loader/lib/index.js:5:194)\\n    at /Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/babel-loader/lib/index.js:5:364\\n    at new Promise (<anonymous>)\\n    at Object.<anonymous> (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/babel-loader/lib/index.js:5:97)\\n    at Object._loader (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/babel-loader/lib/index.js:224:18)\\n    at Object.loader (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/babel-loader/lib/index.js:60:18)\\n    at Object.<anonymous> (/Users/zhangwjr/Desktop/Mywork/webpack-demo/node_modules/babel-loader/lib/index.js:55:12)\");\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _helloworld__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helloworld */ \"./src/helloworld.js\");\n\ndocument.write(Object(_helloworld__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

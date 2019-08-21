@@ -1,5 +1,5 @@
 function helloworld() {
-  return '你好世界'
+  return '你好世界+asdf'
 }
 
 export default helloworld;
